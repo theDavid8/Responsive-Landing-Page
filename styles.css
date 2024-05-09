@@ -3,3 +3,21 @@ body {
     width: 100%;
     margin: 0;
 }
+.header {
+    background-color: #1F2937;
+    height: max-content;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.header .content {
+    height:75px;
+    width:600px;
+    max-width: 1200px;
+    min-width: 600px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+}
