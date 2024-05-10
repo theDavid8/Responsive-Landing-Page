@@ -124,6 +124,27 @@ body {
 .boxColumn .text {
     max-width: 150px;
 }
+.quoteSection {
+    height: max-content;
+    display:flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.quoteText {
+    width:800px;
+    min-width: 400px;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+}
+.quoteText .quote {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+}
+.quoteText .person {
+    align-self: end;
+}
 .testImage {
     background-color: #3882F6;
     width: 150px;
