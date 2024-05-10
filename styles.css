@@ -12,7 +12,6 @@ body {
 .header {
     background-color: #1F2937;
     height: max-content;
-    width: 100%;
     display:flex;
     justify-content: center;
 }
@@ -37,4 +36,21 @@ body {
     color: #F9FAF8;
     padding:12px;
     font-size: 18px;
+}
+.hero {
+    background-color: #1F2937;
+    height: max-content;
+    padding: 36px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.testImage {
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    margin: 12px;
 }
