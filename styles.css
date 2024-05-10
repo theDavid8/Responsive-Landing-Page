@@ -88,7 +88,7 @@ body {
     min-height: 350px;
     display:flex;
     justify-content: center;
-    margin:24px;
+    margin:42px;
 }
 .information .content {
     max-width: 1000px;
@@ -147,10 +147,49 @@ body {
 .quoteText .person {
     align-self: end;
 }
-.testImage {
+.callToAction {
+    height: max-content;
+    display:flex;
+    justify-content: center;
+}
+.callToAction .mainContainer {
+    flex-shrink: 1;
+    width: 1000px;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.callToActionBackground {
     background-color: #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 100px;
     border-radius: 12px;
     margin: 12px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.callToActionBackground .signUp {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 75px;
+}
+h4, p {
+    color:#F9FAF8;
+    padding: 2px;
+    margin: 0px;
+}
+p {
+    font-size: smaller;
+}
+h4 {
+    font-size: medium;
 }
