@@ -3,7 +3,6 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
 body {
     height: max-content;
     width: 100%;
@@ -40,17 +39,40 @@ body {
 .hero {
     background-color: #1F2937;
     height: max-content;
-    padding: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+    padding-bottom:64px;
+}
+.hero .content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    max-width: 1200px;
+    flex-grow: 1;
 }
-
-
-
+.hero .column {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 250px;
+    padding-right: 28px;
+}
+.hero .column .top {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-style: bold;
+}
+.hero .column .middle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .testImage {
     background-color: beige;
-    width: 200px;
-    height: 200px;
+    width: 550px;
+    height: 250px;
     margin: 12px;
+    padding:12px;
 }
